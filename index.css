@@ -1,0 +1,74 @@
+@charset "UTF-8";
+p.main-visual-text{
+    color: #666;
+}
+/*文章中のvalorantのリンク装飾*/
+a.valo{
+    color:#00f;
+    line-height:2;
+}
+a.valo:hover{
+    background-color: #ff0;
+}
+
+h2.title{
+    color:#0f8;
+}
+
+/* アニメーションの領域確保 */
+.works h2{
+    margin-top: 0.8em;
+}
+
+.works h2 span{
+    display: inline-block;
+    animation: wave-text 2s ease-in-out infinite;
+}
+
+/* アニメーション開始タイミングをずらす */
+.works h2 span:nth-of-type(1){ animation-delay: 0.0s; }
+.works h2 span:nth-of-type(2){ animation-delay: 0.1s; }
+.works h2 span:nth-of-type(3){ animation-delay: 0.2s; }
+.works h2 span:nth-of-type(4){ animation-delay: 0.3s; }
+.works h2 span:nth-of-type(5){ animation-delay: 0.4s; }
+
+@keyframes wave-text{
+    00%{
+    transform: translateY(0em);
+    }
+    60%{
+    transform: translateY(-0.8em);
+    }
+    100%{
+    transform: translateY(0em);
+    }
+}
+ /* アニメーションの領域確保 */
+.skill h2{
+    margin-top: 0.8em;
+}
+
+.skill h2 span{
+    display: inline-block;
+    animation: wave-text 2s ease-in-out infinite;
+}
+
+  /* アニメーション開始タイミングをずらす */
+.skill h2 span:nth-of-type(1){ animation-delay: 0.0s; }
+.skill h2 span:nth-of-type(2){ animation-delay: 0.1s; }
+.skill h2 span:nth-of-type(3){ animation-delay: 0.2s; }
+.skill h2 span:nth-of-type(4){ animation-delay: 0.3s; }
+.skill h2 span:nth-of-type(5){ animation-delay: 0.4s; }
+
+@keyframes wave-text{
+    00%{
+    transform: translateY(0em);
+    }
+    60%{
+    transform: translateY(-0.8em);
+    }
+    100%{
+    transform: translateY(0em);
+    }
+}
+
