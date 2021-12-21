@@ -1,8 +1,6 @@
 @charset "UTF-8";
-p.main-visual-text{
-    color: #666;
-}
-/*文章中のvalorantのリンク装飾*/
+
+/*文章中のリンク装飾*/
 a.valo{
     color:#00f;
     line-height:2;
@@ -71,4 +69,5 @@ h2.title{
     transform: translateY(0em);
     }
 }
+
 
