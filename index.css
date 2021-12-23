@@ -8,6 +8,13 @@ a.valo{
 a.valo:hover{
     background-color: #ff0;
 }
+.about main-icon {
+top: 50px;
+left: auto;
+right: auto;
+
+}
+
 
 h2.title{
     color:#0f8;
