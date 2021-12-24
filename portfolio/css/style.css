@@ -3,8 +3,8 @@ body {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: .8px;
-  color: #fff;
-  background-color: #111;
+  color: #333;
+  
 }
 
 a {
@@ -338,6 +338,9 @@ li {
 /*--------------------------------
  Skill
 ---------------------------------*/
+.skill{
+  color: #fff;
+}
 .skill-list {
   display: flex;
   flex-wrap: wrap;

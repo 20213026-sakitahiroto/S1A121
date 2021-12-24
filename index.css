@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+p.main-visual-img  {
+    animation: icon 6s linear infinite;
+}
+@keyframes icon {  
+    0%   { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+
 /*文章中のリンク装飾*/
 a.valo{
     color:#00f;
@@ -48,6 +56,9 @@ h2.title{
     transform: translateY(0em);
     }
 }
+.skill{
+    background-color: #111;
+}
  /* アニメーションの領域確保 */
 .skill h2{
     margin-top: 0.8em;
@@ -65,6 +76,22 @@ h2.title{
 .skill h2 span:nth-of-type(4){ animation-delay: 0.3s; }
 .skill h2 span:nth-of-type(5){ animation-delay: 0.4s; }
 
+.skill-img{
+    margin: 20px auto 0;
+    transition-duration: 0.5s;
+}
+
+.skill-img{   
+    cursor: pointer;
+}
+
+.skill-img:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+ }
+
+
 @keyframes wave-text{
     00%{
     transform: translateY(0em);
@@ -75,6 +102,13 @@ h2.title{
     100%{
     transform: translateY(0em);
     }
+}
+.cake{
+    color:#0ff;
+    line-height:2;
+}
+.cake:hover{
+    background-color: #fff;
 }
 
 
